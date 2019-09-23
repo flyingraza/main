@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/* RESET */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+/* FONT */
+@font-face {
+  font-family:'Nanum Gothic';
+  font-weight:400;
+  src:url('../../../common/font/NanumGothic.eot');
+  src:url('../../../common/font/NanumGothic.eot?#iefix') format('embedded-opentype'),
+  url('../../../common/font/NanumGothic.woff') format('woff'),
+  url('../../../common/font/NanumGothic.ttf') format('truetype');
+}
+@font-face {
+  font-family:'Nanum GothicB';
+  font-weight:700;
+  src:url('../../../common/font/NanumGothicBold.eot');
+  src:url('../../../common/font/NanumGothicBold.eot?#iefix') format('embedded-opentype'),
+  url('../../../common/font/NanumGothicBold.woff') format('woff'),
+  url('../../../common/font/NanumGothicBold.ttf') format('truetype');
+}
+@font-face {
+  font-family:'Nanum GothicE';
+  font-weight:700;
+  src:url('../../../common/font/NanumGothicExtraBold.eot');
+  src:url('../../../common/font/NanumGothicExtraBold.eot?#iefix') format('embedded-opentype'),
+  url('../../../common/font/NanumGothicExtraBold.woff') format('woff'),
+  url('../../../common/font/NanumGothicExtraBold.ttf') format('truetype');
+}
+
+/* TABLE */
+.tb caption { display:none; }
+.tb { position:relative; width:100%; table-layout:fixed; border-top:3px solid #00a0af; }
+.tb thead th { background:#f5f5f5; border-bottom:1px solid #dcdcdc; padding-top:14px; padding-bottom:12px; line-height:14px; }
+.tb tbody th { border-bottom:1px solid #dcdcdc; padding-top:12px; padding-bottom:10px; line-height:18px; text-align:center; background:#eee; }
+.tb tbody td { border-bottom:1px solid #dcdcdc; padding-top:12px; padding-bottom:10px; line-height:18px; text-align:center; }
+
+/* HOVER COLOR EFFECT */
+a:hover{color: #fa8749;}
