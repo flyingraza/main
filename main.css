@@ -12,7 +12,7 @@ p {
 	left: 50%;
 	width: 40em;
 	margin: 0 0 0 -20em;
-  
+}
   span {
 
   	font: 700 4em/1 "Oswald", sans-serif;
@@ -39,7 +39,6 @@ p {
 	  -webkit-backface-visibility: hidden;
 
   }
-}
 
 /* Animate Background Image */
 
